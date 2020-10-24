@@ -16,6 +16,7 @@ describe('VideoTitleComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(VideoTitleComponent);
     component = fixture.componentInstance;
+    component.params = {value: {videoId: '', title: ''}};
     fixture.detectChanges();
   });
 

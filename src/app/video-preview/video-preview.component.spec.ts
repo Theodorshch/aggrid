@@ -16,6 +16,7 @@ describe('VideoPreviewComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(VideoPreviewComponent);
     component = fixture.componentInstance;
+    component.params = {value: ''};
     fixture.detectChanges();
   });
 
